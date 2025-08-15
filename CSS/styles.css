@@ -1,0 +1,88 @@
+*{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.h-font{
+   font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container-fluid{
+    background-color: rgb(204, 255, 237);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#carouselHeros .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.check-label{
+    font-weight: 500;
+}
+
+.custom-bg{
+    background-color: rgb(46, 170, 179);
+}
+
+.custom-bg:hover{
+    background-color: rgb(31, 85, 88);
+}
+
+.availability-form{
+    margin-top: -50px;
+    z-index: 11;
+}
+
+@media screen and (max-width: 575px){
+    .availability-form{
+        margin-top: -50px;
+        z-index: 2;
+        position: relative;
+    }
+}
+
+.card{
+    max-width: 350px;
+    margin: auto;
+}
+
+.availability-form{
+   padding-top: 4rem;
+}
+
+.card-img-top{
+height: 17rem;
+}
+
+.container-videos{
+    margin-left: 12.5rem;
+}
+
+.container-info{
+    margin-left: 7rem;
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
